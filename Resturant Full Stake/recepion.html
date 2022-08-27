@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recepion</title>
+    <link rel="stylesheet" href="recepion.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body class="back">
+  <!-- /* =================================== */ -->
+  <div class="siting-box open">
+    <span class="ss"><img src="imags/list.svg" class="img_my" alt=""></span>
+    <div class="siting-continer text-center">
+      
+    </div>
+  </div>
+  <!-- /* =================================== */ -->
+  <section class="mai">
+   <div class="container ">
+     <div class="login">   
+        <form action="" class="pernt">
+          <input type="text" class="name" id="ca" placeholder="Castomer Name">
+          <input type="text" class="pass" id="add" placeholder="Address">
+          <select class="abd" required id="dddd" onchange="ddlselect();">
+          <option>_______________Dishes Menu______________</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Pizza </option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option></option>
+          <option value="6,50" data-new="7,50">01-Margerita</option>
+          <option value="6,50" data-new="7,50">02-Salame</option>
+          <option value="6,50" data-new="7,50">03-Hinterschinken</option>
+          <option value="6,50" data-new="7,50">04-Chompignon</option>
+          <option value="6,50" data-new="7,50">05-Thunfisch</option>
+          <option value="6,50" data-new="7,50">06-Zwiebel</option>
+          <option value="6,50" data-new="7,50">07-Artischocken</option>
+          <option value="6,50" data-new="7,50">08-Peperoni</option>
+          <option value="6,50" data-new="7,50">09-Sardellen</option>
+          <option value="6,50" data-new="7,50">10-Muscheln</option>
+          <option value="7,50" data-new="8,50">11-Quattro Formaggi</option>
+          <option value="7,50" data-new="8,50">12-BBQ</option>
+          <option value="7,50" data-new="8,50">13-Melonzane</option>
+          <option value="7,50" data-new="8,50">14-Contandina</option>
+          <option value="7,50" data-new="8,50">15-Funghi</option>
+          <option value="7,00" data-new="8,00">16-Coprese</option>
+          <option value="8,50" data-new="9,50">17-Emilio</option>
+          <option value="7,50" data-new="8,50">18-Diovoio</option>
+          <option value="7,50" data-new="8,50">19-Verona</option>
+          <option value="7,50" data-new="8,50">20-Vier Jahreszeiten</option>
+          <option value="7,50" data-new="8,50">21-Speziale</option>
+          <option value="7,00" data-new="8,00">22-Pasta</option>
+          <option value="7,00" data-new="8,00">23-Pizzaiola</option>
+          <option value="6,50" data-new="7,50">24-Nordica</option>
+          <option value="7,50">25-Calzone</option>
+          <option value="7,50" data-new="8,50">26-Mare</option>
+          <option value="7,00" data-new="8,00">27-Hawaii</option>
+          <option value="7,50" data-new="8,50">28-Massaia</option>
+          <option value="7,50" data-new="8,50">29-Turco</option>
+          <option value="7,50" data-new="8,50">30-Carina</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Antipasti_vorspeisen</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="7,50">Caprese</option>
+          <option value="6,00">Bruschetta</option>
+          <option value="8,50">Gegrillter Mozzarella</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Insalate_salate </option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="6,00" data-new="7,00">Italienischer Salat</option>
+          <option value="7,00" data-new="8,00">Spezial Salat</option>
+          <option value="6,00" data-new="6,50">Salat Primavera</option>
+          <option value="7,00" data-new="8,00">Salat Greca</option>
+          <option value="5,00">Tamatensalat</option>
+          <option value="3,50">Beilagensalat</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Fischgerichte</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="10,50">Meeresfruchtesalat</option>
+          <option value="12,00">Tintenfischringe gebacken</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Pasta</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="6,00">Spaghetti Napoli</option>
+          <option value="7,00">Aglio Oglio e Peperocino</option>
+          <option value="8,00">Spaghetti Mare</option>
+          <option value="7,00">Spaghetti Carbonara</option>
+          <option value="7,50">Spaghetti Bolognese</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="7,50">Tartellini al panna</option>
+          <option value="8,50">Tartellini al forno</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="7,50">Rigatoni Bolognese</option>
+          <option value="8,50">Rigatoni al forno</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~</option>~~~~~~~~~</option>
+          <option value="9,50">Tagliatelle al Salmone</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="8,50">Canneioni Spinachi</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="7,50">Lasagne Bolognese</option>
+          <option value="8,50">Lasagne al farno</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="6,50">Gnocci al panna</option>
+          <option value="7,00">Gnocci Bolognese</option>
+          <option value="8,00">Gnocci Gorgonzola</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Vom Schwein</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="11,50">Schnitzel Paniert .. Wiener Art"</option>
+          <option value="12,50">Rahmschnitzel mit Champignons</option>
+          <option value="12,50">Cordon bleu</option>
+          <option value="13,50">Saltimbocca ala Romana</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Vom Rind</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="16,50">Steak Natur mit Krauterbutter</option>
+          <option value="18,50">Steak ai Pepe</option>
+          <option value="18,50">Steak al Bologna</option>
+          <option value="18,50">Lowensteak vom Simmentaler Rind</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option disabled class="kk">Da Christine Specials</option>
+          <option disabled class="kk">~~~~~~~~~~~~~~~~~~~~~~~</option>
+          <option value="8,50">Hangover Pommes</option>
+          <option value="7,50">Pizza Wrap</option>
+          <option value="24,00">Pizza Blech 40 X 60cm</option>
+          </select>
+
+</form>
+      </div>
+    </div>
+</section>
+<script src="recepion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

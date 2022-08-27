@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(imags/patrick-fore-hoxqcGUheeo-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.my-card{
+    display: flex;
+    flex-direction: column;
+}
+.my-card p{
+    color: wheat;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 800;
+}
+.my-card span{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+#textt{
+    color: wheat;
+    background-color: #141619c4;
+}
+.rone,
+.rtow,
+.rthrre{
+    margin: 40px 0px;
+}
+.container h1{
+    color: antiquewhite;
+}
+div.a{
+    border: 5px solid #adb5bd80;
+    border-radius: 10px;
+    
+}
